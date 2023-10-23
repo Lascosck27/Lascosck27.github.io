@@ -9,6 +9,10 @@ p, h1, h2, h4, span {
     margin: 0% 20%;
 }
 
+.inpagetitlestuff {
+    text-align: center;
+}
+
 .navbar{
     background-color:rgb(216, 0, 0);
     display: flex;
