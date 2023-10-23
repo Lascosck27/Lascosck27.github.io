@@ -59,6 +59,5 @@ img{
 
 iframe {
     margin-left: 7rem;
-    width: 50%;
-    height: 50%;
+    object-fit: fill;
 }
