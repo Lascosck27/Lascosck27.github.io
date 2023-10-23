@@ -51,6 +51,14 @@ p, h1, h2, h4, span {
     margin: 0rem 2rem;
 }
 
-img, iframe {
-    margin: 0rem 7rem;
+img{
+    margin: 2rem 7rem;
+    width: 50%;
+    height: auto;
+}
+
+iframe {
+    margin-left: 7rem;
+    width: 50%;
+    height: 50%;
 }
