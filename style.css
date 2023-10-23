@@ -2,7 +2,11 @@
 
 * { 
     font-family: 'Mandali', sans-serif;
-    text-align: center;
+    text-align: left;
+}
+
+p, h1, h2, h4, span {
+    margin: 0% 20%;
 }
 
 .navbar{
@@ -13,6 +17,7 @@
 
 .navbaritens {
     display: flex;
+    margin: 0% 20%;
 }
 
 .navbarlink{
@@ -21,4 +26,22 @@
 
 .navbar a {
     color: white;
+}
+
+.contentcontainer {
+    margin: 60px 0%;
+    
+}
+
+.contentcontainer a {
+    color: rgb(216, 0, 0);
+    text-decoration: none;
+}
+
+.containertitle {
+    margin: 0px 20%;
+}
+
+img, iframe {
+    margin: 0% 20%;
 }
