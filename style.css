@@ -16,6 +16,7 @@ p, h1, h2, h4, span {
 .navbar{
     background-color:rgb(216, 0, 0);
     display: flex;
+    justify-content: center;
     padding: 16px;
 }
 
@@ -33,7 +34,8 @@ p, h1, h2, h4, span {
 }
 
 .contentcontainer {
-    margin: 60px 0%;
+    margin-top: 120px;
+    text-align: center;
     
 }
 
