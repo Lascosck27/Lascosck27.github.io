@@ -5,6 +5,20 @@
     text-align: center;
 }
 
-image {
-    display: block;
+.navbar{
+    background-color:rgb(216, 0, 0);
+    display: flex;
+    padding: 16px;
+}
+
+.navbaritens {
+    display: flex;
+}
+
+.navbarlink{
+    padding-right: 8px;
+}
+
+.navbar a {
+    color: white;
 }
