@@ -1,4 +1,7 @@
-* {
+@import url('https://fonts.cdnfonts.com/css/mandali');
+
+* { 
+    font-family: 'Mandali', sans-serif;
     text-align: center;
 }
 
