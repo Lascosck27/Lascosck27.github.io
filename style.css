@@ -6,7 +6,7 @@
 }
 
 p, h1, h2, h4, span {
-    margin: 0rem 2rem;
+    margin: 0rem 6rem;
 }
 
 .inpagetitlestuff {
@@ -48,11 +48,11 @@ p, h1, h2, h4, span {
 }
 
 .containertitle {
-    margin: 0rem 2rem;
+    margin: 0rem 6rem;
 }
 
 img{
-    margin: 2rem 2rem;
+    margin: 2rem 6rem;
     width: 30%;
     height: auto;
 }
@@ -62,7 +62,7 @@ img{
     overflow: hidden;
     width: 50%;
     padding-top: 28.125%;
-    margin-left: 2rem;
+    margin-left: 6rem;
 }
 
 .responsiveiframe {
