@@ -39,6 +39,10 @@ p, h1, h2, h4, span {
     
 }
 
+#containeronetitle {
+    text-align: center;
+}
+
 .contentcontainer a {
     color: rgb(216, 0, 0);
     text-decoration: none;
