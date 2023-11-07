@@ -303,6 +303,21 @@ ol ul {
 li {
   margin-bottom: 1rem; }
 
+.navbar-list {
+  display: block;
+  list-style-type: none;
+}
+
+.navbar-item {
+  margin-right: 2rem;
+}
+
+@media (min-width: 650px) {
+  .navbar-item{
+    display: flex;
+    color: red;
+  }
+}
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
