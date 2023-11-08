@@ -306,6 +306,7 @@ li {
 .navbar-list {
   display: block;
   list-style-type: none;
+  background-color: rgb(239, 239, 239);
 }
 
 .navbar-item {
@@ -313,9 +314,8 @@ li {
 }
 
 @media (min-width: 650px) {
-  .navbar-item{
+  .navbar-item, .navbar-list{
     display: flex;
-    color: red;
   }
 }
 
