@@ -49,22 +49,58 @@
         </header>
 
         <main>
+
             <div class="container my-5">
-                <div class="row text-info">
-                    <div class="col-sm-12">
-                        <h1>Sobre o projeto</h1>
+                
+                <div class="accordion col-6" id="indexaccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Sobre o Projeto
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#indexaccordion">
+                            <div class="accordion-body">
+                                <p>
+                                    Esta recriação do Intranet é uma forma de aprender e entender sobre o funcionamento da framework Bootstrap. 
+                                    Bootstrap é uma das mais conhecidas e utilizadas frameworks, então é uma ótima escolha para se estudar.
+                                </p>
+                                <p>
+                                    Além disso, pretendo estudar e entender também sobre JavaScript, 
+                                    que é fundamental na criação de qualquer website.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <p>
-                            Esta recriação do Intranet é uma forma de aprender e entender sobre o funcionamento da framework Bootstrap. 
-                            Bootstrap é uma das mais conhecidas e utilizadas frameworks, então é uma ótima escolha para se estudar.
-                        </p>
-                        <p>
-                            Além disso, pretendo também estudar e entender também sobre JavaScript, 
-                            que é fundamental na criação de qualquer website.
-                        </p>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Quem está por trás disso?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#indexaccordion">
+                            <div class="accordion-body">
+                                <p>
+                                    Quem está desenvolvendo esta página é o Gabriel Lascosck, estagiário de TI da PGE.
+                                    Atualmente cursando Análise e Desenvolvimento de sistemas na UVV, deseja se tornar um "dev" de sucesso.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Contato
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#indexaccordion">
+                            <div class="accordion-body">
+                                <address>
+                                    <strong>GitHub:</strong> <a class="link-underline-dark" href="https://github.com/Lascosck27">Lascosck27</a> <br>
+                                    <strong>Email:</strong> <a class="link-underline-dark" href="mailto:gabriellascosck0909@gmail.com">Gabriellascosck0909@gmail.com</a>
+                                </address>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
